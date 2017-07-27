@@ -81,7 +81,7 @@
 #define CONFIG_CMD_NET
 #define CONFIG_FEC_MXC
 #define CONFIG_MII
-#define CONFIG_FEC_ENET_DEV 1  /* Use onboard ethernet as default */
+#define CONFIG_FEC_ENET_DEV 0  /* Use onboard ethernet as default */
 
 #if (CONFIG_FEC_ENET_DEV == 0)
 #define IMX_FEC_BASE			ENET_BASE_ADDR
