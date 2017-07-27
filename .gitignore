@@ -68,7 +68,7 @@ series
 
 # cscope files
 cscope.*
-
+ncscope.*
 # tags files
 /tags
 /ctags
